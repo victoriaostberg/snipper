@@ -1,0 +1,181 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.bg-img{
+background-image: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.sign-in{
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.get-started{
+    border: none;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    padding: 15px 25px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+
+span{
+    color: white;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.search-signin{
+    display: flex;
+}
+
+.snipper-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.landing-info{
+    text-align: center;
+    max-width: 640px;
+    display: flex;
+    flex-flow: column;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+p{
+    color: #383838;
+}
+
+.second{
+    width: fit-content;
+    align-self: center;
+}
+
+.hero-img > img{
+    width: 90%;
+    height: auto;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.second-container{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.second-img > img{
+    width: 35vw;
+}
+
+.terms, .privacy{
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color:#383838
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 75px 0px 50px 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.terms-privacy{
+    display: flex;
+}
+
+.footer-terms{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 830px) and (min-width: 481px){
+    .second-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .second-img > img{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 480px){
+
+    .second-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second-img > img{
+        width: 50vw;
+    }
+
+    .snipper-nav {
+        display: none;
+    }
+
+    .hidden{
+        display: flex
+    }
+}
